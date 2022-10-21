@@ -1,0 +1,205 @@
+/* header */
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    padding: 30px;
+    margin-bottom: 100px;
+}
+
+.nav-ul {
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    width: 900px;
+}
+
+.nav-li {
+    margin-right: 15px;
+    font-family: 'Lato', sans-serif;
+}
+
+.nav-li:first-child {
+    margin-left: 490px;
+}
+
+.logo {
+    font-size: 32px;
+    color: #3D37F1;
+    font-family: 'Lato';
+}
+
+.logo::after {
+    content: 'UiExpert';
+    font-size: 32px;
+    color: #4B647E;
+    font-family: 'Lato', sans-serif;
+}
+
+/* section 1*/
+.section1 {
+    display: flex;
+    width: 1200px;
+    margin: auto;
+    flex-direction: row;
+}
+
+.left-block {
+    width: 500px;  
+    margin-right: 100px; 
+}
+
+.tytle0 {
+    font-size: 50px;
+    font-family: 'Lato';
+}
+
+.text {
+    font-size: 22px;
+    margin-bottom: 70px;
+    margin-top: 50px;
+    font-family: 'Roboto';
+}
+
+.blue-box {
+    display: flex;
+    width: 200px;
+    height: 60px;
+    background-color: #3D37F1;
+    border-radius: 30px;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.wave-me {
+    color: #FFFFFF;
+    font-size: 20px; 
+    font-family: 'Poppins';
+}
+
+.wave-me::before {
+    content: url('../image/waving-hand.png');
+    margin-right: 10px;
+}
+
+.right-block {
+    background-image: url('../image/undraw_pair_programming_njlp.svg');
+    width: 600px;
+    height: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 150px;
+}
+
+/* section 2*/
+.block-wraper {
+    width: 1100px;
+    margin: auto;
+}
+
+/* text block*/
+.text-block {
+    width: 650px;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.tytle {
+    color: #3D37F1;
+    font-size: 20px;
+    font-family: 'Lato';
+}
+
+.text1 {
+    font-size: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: 'Lato', sans-serif;
+}
+
+.text2 {
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+}
+
+
+/* 6 boxes block*/
+.row-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 950px;
+    margin: auto;
+}
+
+.box-block {
+    width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.box-block:nth-child(1) {
+    background-color: #FBBA77;
+    margin-bottom: 20px;
+}
+
+.box-block:nth-child(2) {
+    background-color: #41EAE3;
+}
+
+.box-block:nth-child(3) {
+    background-color: #69529F;
+}
+
+.box-block:nth-child(4) {
+    background-color: #4386D2;
+}
+
+.box-block:nth-child(5) {
+    background-color: #A5A2F6;
+    margin-bottom: 50px;
+}
+
+.box-block:nth-child(6) {
+    background-color: #FF8088;
+}
+
+.ovalbox {
+    width: 120px;
+    border-radius: 30px;
+    height: 40px;
+    border-style: solid;
+    border-width: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.tytle-box {
+    font-size: 22px;
+    margin-top: 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+.text-box {
+    width: 280px;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.box1 {
+    color: #4B647E;
+    background-color: white;
+    border-style: none;
+}
+
